@@ -10,6 +10,15 @@
 <style>
 body {font-family: "Lato", sans-serif}
 .mySlides {display: none}
+.faux-redbg {
+  background-image: url(images/redbackground.jpg);
+  background-repeat: no-repeat;
+  background-position: 0 -.2em;
+}
+.faux-concertdates {
+  color: whitesmoke;
+}
+
 </style>
 </head>
 <body>
@@ -93,24 +102,28 @@ body {font-family: "Lato", sans-serif}
   <!-- The Tour Section -->
   <div class="w3-black" id="tour">
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-      <h2 class="w3-wide w3-center">TOUR DATES</h2>
-      <p class="w3-opacity w3-center"><i>Remember to book your tickets!</i></p><br>
+      <h2 class="w3-wide w3-center">2024 TOUR DATES</h2>
+      <p class="w3-opacity w3-center"><i>Remember to show up!</i></p><br>
 
-      <ul class="w3-ul w3-border w3-white w3-text-grey">
+      <ul class="w3-ul w3-border w3-white w3-text-grey faux-redbg">
         <!-- <li class="w3-padding">Saturday March 30 7pm <span class="w3-tag w3-red w3-margin-left">Padraig's Brewing - Minneapolis MN</span></li>
-        <li class="w3-padding">Friday April 5 <span class="w3-tag w3-red w3-margin-left">Outtakes Bar and Grill - New Hope MN</span></li>
-        <li class="w3-padding">Saturday April 20 <span class="w3-badge w3-right w3-margin-right">Maple Tavern - Maple Grove MN</span></li>
-        <li class="w3-padding">Monday August 5 <span class="w3-tag w3-red w3-margin-left">Town Green - Summer Concert Series - Maple Grove MN</span></li>
-        <li class="w3-padding">Saturday August 10 7pm <span class="w3-tag w3-red w3-margin-left">No Cover</span> Private Party - Ham Lake MN</li> -->
+        <li class="w3-padding redfauxbg">Friday April 5 <span class="w3-tag w3-red w3-margin-left">Outtakes Bar and Grill - New Hope MN</span></li>
+        <li class="w3-padding redfauxbg">Saturday April 20 <span class="w3-badge w3-right w3-margin-right">Maple Tavern - Maple Grove MN</span></li>
+        <li class="w3-padding redfauxbg">Monday August 5 <span class="w3-tag w3-red w3-margin-left">Town Green - Summer Concert Series - Maple Grove MN</span></li>
+        <li class="w3-padding redfauxbg">Saturday August 10 7pm <span class="w3-tag w3-red w3-margin-left">No Cover</span> Private Party - Ham Lake MN</li> -->
         <li class="w3-padding">Saturday March 30 7pm -- Padraig's Brewing -- Minneapolis MN</li>
-        <li class="w3-padding">Friday April 5 -- Outtakes Bar and Grill -- New Hope MN</span></li>
-        <li class="w3-padding">Saturday April 20 -- Maple Tavern -- Maple Grove MN</span></li>
-        <li class="w3-padding">Monday August 5 -- Town Green -- Summer Concert Series - Maple Grove MN</span></li>
-        <li class="w3-padding">Saturday August 10 7pm -- Private Party -- Ham Lake MN</li>
+        <li class="w3-padding ">Friday April 5 -- Outtakes Bar and Grill -- New Hope MN</span></li>
+        <li class="w3-padding ">Saturday April 20 -- Maple Tavern -- Maple Grove MN</span></li>
+        <li class="w3-padding ">Monday August 5 -- Town Green -- Summer Concert Series - Maple Grove MN</span></li>
+        <li class="w3-padding faux-concertdates">
+          <div class="w3-display-container" style="height: 20pt;">
+            <span class="w3-tag w3-red w3-margin-left w3-display-left" style="float:left">Private Party -- Ham Lake MN</span>
+            <span class="w3-badge w3-display-right">Saturday August 10<sup>th</sup> @ 7pm</span>
+          </div>
+        </li>
+      </ul>
 
-    </ul>
-
-      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+      <!-- <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
         <div class="w3-third w3-margin-bottom">
           <img src="images/redbackground.jpg" alt="New York" style="width:100%" class="w3-hover-opacity">
           <div class="w3-container w3-white">
@@ -138,7 +151,7 @@ body {font-family: "Lato", sans-serif}
             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 
@@ -197,13 +210,13 @@ body {font-family: "Lato", sans-serif}
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <a href="https://www.facebook.com/SayItAintFauxTribute/"><i class="fa fa-facebook-official w3-hover-opacity">acebook.com/SayItAintFauxTribute/</i></a>
   <!-- <i class="fa fa-instagram w3-hover-opacity"></i>
   <i class="fa fa-snapchat w3-hover-opacity"></i>
   <i class="fa fa-pinterest-p w3-hover-opacity"></i>
   <i class="fa fa-twitter w3-hover-opacity"></i>
   <i class="fa fa-linkedin w3-hover-opacity"></i> -->
-  <p class="w3-medium">Powered by OSI Labs</p>
+  <p class="w3-medium">Powered by Your Mom</p>
 </footer>
 
 <script>
