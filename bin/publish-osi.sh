@@ -1,1 +1,1 @@
-cp ../index.html public_html/sayitaintfaux.com/
+cp -rp ../website/* ~/public_html/sayitaintfaux.com/
