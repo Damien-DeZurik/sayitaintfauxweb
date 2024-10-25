@@ -1,7 +1,7 @@
 # sayitaintfauxweb
 
 ### Publishing 
-On osilabs.com home dir there is a checkout called sayitaintfauxweb
+In osilabs.com home dir there is a checkout called sayitaintfauxweb
 
 ```sh
 cd ~/sayitaintfauxweb
