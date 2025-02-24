@@ -9,3 +9,4 @@ git pull
 cd ~/sayitaintfauxweb/bin
 bash ./publish-osi.sh
 ```
+
