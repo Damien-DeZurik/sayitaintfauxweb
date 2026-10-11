@@ -29,6 +29,10 @@ body {font-family: "Lato", sans-serif}
 }
 .w3-roboto {font-family: 'Roboto', sans-serif;}
 .w3-tangerine {font-family: 'Roboto', sans-serif;}
+.w3-card, .w3-button, button, input, textarea, select, img:not(.faux-logo),
+.w3-container, .w3-ul, .w3-light-gray, .w3-black, .w3-white {
+  border-radius: 4px;
+}
 </style>
 </head>
 <body>
@@ -47,7 +51,7 @@ body {font-family: "Lato", sans-serif}
 
   <!-- <div class="mySlides w3-display-container w3-border w3-card w3-blue w3-center"> -->
   <div class="w3-white w3-center">
-    <img src="images/Faux-icon-round-blue.png" style="height:420px; z-index: auto;">
+    <img src="images/Faux-icon-round-blue.png" class="faux-logo" style="height:420px; z-index: auto;">
     <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
       <!-- <h3>Weezing across America</h3> -->
       <!-- <h3>Thank you, Minneapolis</h3> -->
@@ -170,9 +174,6 @@ body {font-family: "Lato", sans-serif}
 
   <div class="w3-container w3-content w3-center w3-padding-64 w3-light-gray" style="max-width:800px" id="band">
     <h2 class="w3-wide">MEET THE BAND</h2>
-    <p class="w3-opacity"><i>The Twin Cities' hottest Weezer tribute</i></p>
-    
-    <p class=""><a href="https://www.facebook.com/SayItAintFauxTribute/"><i class="fa fa-facebook-official w3-hover-opacity">&nbsp;</i>Faux On Facebook</a></p>
     <!-- <p class="">Find out why people say, "These guys bring it, every time!"</p> -->
 
     <div class="w3-row w3-padding-32">
@@ -246,8 +247,6 @@ body {font-family: "Lato", sans-serif}
     <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
       <div class="w3-container">
 
-        <h2 class="w3-wide w3-center w3-margin">PHOTOS</h2>
-
         <div class="w3-row w3-padding-32">
           <div class="w3-center">
             <p>Captains log.. Boldly rocking where eagles dare</p>
@@ -284,13 +283,11 @@ body {font-family: "Lato", sans-serif}
 <!-- --- ---- ----- CONTACT ----- ---- --- -->
 
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-    <h2 class="w3-wide w3-center">CONTACT</h2>
     <!-- <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p> -->
  
     <div class="w3-padding-32 w3-center" style="width: 100%; text-align: center;">
       <div class="w3-center w3-margin-bottom">
         <!-- <i class="fa fa-phone" style="width:30px"></i> Phone: +00 151515<br> -->
-        <i class="fa fa-globe" style="width:30px"> </i><a href="https://sayitaintfaux.com/">SayItAintFaux.com</a><br>
         <i class="fa fa-facebook-official" style="width:30px"> </i><a href="https://www.facebook.com/SayItAintFauxTribute/">SayItAintFauxTribute</a><br>
         <i class="fa fa-envelope" style="width:30px"> </i><a href="mailto:booking@sayitaintfaux.com">booking@sayitaintfaux.com</a><br>
         <br>
@@ -346,7 +343,6 @@ body {font-family: "Lato", sans-serif}
   <i class="fa fa-twitter w3-hover-opacity"></i>
   <i class="fa fa-linkedin w3-hover-opacity"></i> -->
   <!-- <p class="w3-medium">Powered by People of High Regard</p> -->
-  <p class="w3-medium">Powered by Eugene Helix</p>
 </footer>
 
 <script>
