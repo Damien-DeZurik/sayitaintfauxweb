@@ -17,6 +17,7 @@ Inspect `website/index.html` and the local image assets it references. Report PA
 4. The list of shows is ordered oldest to newest and includes a date and a location/venue for each show.
 5. The page does not contain any obvious structural issues that prevent the requested content from displaying correctly (for example, missing closing tags, broken HTML structure, or CSS issues that hide content).
 6. The hyperlinks all appear to go where they are intended to go, and do not point to broken or unrelated pages.
+7. Shows that are before today are with a strikethrough or otherwise visually indicated as past shows, and shows that are today or after today are not visually indicated as past shows.
 
 Also note any obvious structural issue directly introduced by the latest changes that prevents the requested content from displaying.
 
