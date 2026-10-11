@@ -10,7 +10,7 @@ Review the updated `website/index.html` for visual hierarchy, typography, spacin
 Return:
 
 - One highest-value suggestion to make the page feel more modern.
-- Why it would improve the page and which section it applies to.
 - A brief implementation direction, without making the change.
+- One high-value color or imagry suggestion to enhance the page's visual appeal, without making the change.
 
 Keep the recommendation specific to the current page and requested updates. If the page already looks modern in the relevant area, say so and offer one small optional improvement.
