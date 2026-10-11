@@ -1,6 +1,6 @@
 ---
 name: Faux Website Validator
-description: "Read-only validation of website/index.html after webpage edits. Checks that the page presents a list of shows, includes relevant pictures, and displays the band logo at the top; verifies referenced local image assets exist."
+description: "Read-only validation of website/index.html after webpage edits. Checks that the page presents a list of shows, includes relevant pictures, and displays the band logo at the top; verifies referenced local image assets exist. Reports PASS/FAIL for each check, and notes any structural issues preventing content display. Every show listed should have a date and a location/venue."
 tools: [read, search]
 user-invocable: false
 ---
